@@ -1,7 +1,13 @@
 public class Jornalero extends Empleado {
-    public int totalHorasJornalero = 0;
-    public double totalNominaJornalero = 0;
-    public int totalJornaleros = 0;
+    private double horasExtra;
+
+    public double getHorasExtra() {
+        return this.horasExtra;
+    }
+
+    public void setHorasExtra(double horasExtra) {
+        this.horasExtra = horasExtra;
+    }
 
     public Jornalero(String nombre, double numHorasTrabajadas) {
         super(nombre, numHorasTrabajadas);
@@ -9,25 +15,22 @@ public class Jornalero extends Empleado {
     }
 
     public double calcularSalario(int numHorasTrabajadas, double tarifa) {
-        totalHorasJornalero += numHorasTrabajadas;
-        totalJornaleros++;
         int numHorasNormales = 50;
         double salarioHorasNormales, salarioHorasExtra;
         if ((numHorasTrabajadas - numHorasNormales) > 0) {
-            int numHorasExtra = numHorasTrabajadas - numHorasNormales;
-            salarioHorasExtra = super.calcularSalario(numHorasExtra, tarifa * 2);
+            this.horasExtra = numHorasTrabajadas - numHorasNormales;
+            salarioHorasExtra = super.calcularSalario((int) this.horasExtra, tarifa * 2);
             salarioHorasNormales = super.calcularSalario(numHorasNormales, tarifa);
             double salarioTotal = salarioHorasExtra + salarioHorasNormales;
             super.setSalario(salarioTotal);
-            totalNominaJornalero += salarioTotal;
             return (salarioTotal);
         } else {
-            totalNominaJornalero += super.calcularSalario(numHorasTrabajadas, tarifa);
             return super.calcularSalario(numHorasTrabajadas, tarifa);
         }
 
     }
 
+    @Override
     public String toString() {
         return super.toString();
     }
