@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-        <mxGraphModel dx="511" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="963" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
                 <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="Empleado" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-                    <mxGeometry x="220" y="120" width="330" height="404" as="geometry">
+                    <mxGeometry x="220" y="120" width="330" height="430" as="geometry">
                         <mxRectangle x="220" y="120" width="160" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -27,32 +27,32 @@
                 <mxCell id="wV_XEhvEnDIZrRfMNP9S-2" value="+void setNombre(String nombre)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
                     <mxGeometry y="138" width="330" height="26" as="geometry"/>
                 </mxCell>
+                <mxCell id="2" value="+String getNombre(String nombre)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+                    <mxGeometry y="164" width="330" height="26" as="geometry"/>
+                </mxCell>
                 <mxCell id="wV_XEhvEnDIZrRfMNP9S-11" value="+void setSalario(double salario)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-                    <mxGeometry y="164" width="330" height="30" as="geometry"/>
+                    <mxGeometry y="190" width="330" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="wV_XEhvEnDIZrRfMNP9S-12" value="+ double getSalario()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-                    <mxGeometry y="194" width="330" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="wV_XEhvEnDIZrRfMNP9S-13" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-bottom: 0cm ; line-height: normal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;font face=&quot;Tahoma&quot; style=&quot;font-size: 12px&quot;&gt;+void setSalario(double salario)&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-                    <mxGeometry y="224" width="330" height="30" as="geometry"/>
+                    <mxGeometry y="220" width="330" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="wV_XEhvEnDIZrRfMNP9S-16" value="&lt;div style=&quot;font-family: &amp;#34;tahoma&amp;#34;&quot;&gt;+void setNumHorasTrabajadas(double&amp;nbsp;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;numHorasTrabajadas)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-                    <mxGeometry y="254" width="330" height="30" as="geometry"/>
+                    <mxGeometry y="250" width="330" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="wV_XEhvEnDIZrRfMNP9S-17" value="&lt;div style=&quot;font-family: &amp;#34;tahoma&amp;#34;&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;tahoma&amp;#34;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;tahoma&amp;#34;&quot;&gt;double getNumHorasTrabajadas()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-                    <mxGeometry y="284" width="330" height="30" as="geometry"/>
+                    <mxGeometry y="280" width="330" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="wV_XEhvEnDIZrRfMNP9S-18" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-bottom: 0cm ; line-height: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;tahoma&amp;#34;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;tahoma&amp;#34;&quot;&gt;String toString()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-                    <mxGeometry y="314" width="330" height="30" as="geometry"/>
+                    <mxGeometry y="310" width="330" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="wV_XEhvEnDIZrRfMNP9S-19" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-bottom: 0cm ; line-height: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;tahoma&amp;#34; ; text-align: center&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;tahoma&amp;#34; ; text-align: center&quot;&gt;double calcularSalario(int numHorasTrabajadas, double&lt;br&gt;tarifa)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-                    <mxGeometry y="344" width="330" height="30" as="geometry"/>
+                    <mxGeometry y="340" width="330" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="wV_XEhvEnDIZrRfMNP9S-20" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-bottom: 0cm ; line-height: normal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;font face=&quot;Tahoma&quot; style=&quot;font-size: 12px&quot;&gt;+void setSalario(double salario)&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-                    <mxGeometry y="374" width="330" height="30" as="geometry"/>
+                    <mxGeometry y="370" width="330" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="Jornalero" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-                    <mxGeometry y="640" width="350" height="164" as="geometry">
+                    <mxGeometry y="640" width="350" height="190" as="geometry">
                         <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -65,14 +65,17 @@
                 <mxCell id="zkfFHV4jXpPFQw0GAbJ--8" value="+void setHorasExtra(double horasExtra)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
                     <mxGeometry y="60" width="350" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="zkfFHV4jXpPFQw0GAbJ--10" value="+Jornalero(String nombre, double numHorasTrabajadas)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+                <mxCell id="1" value="+void getHorasExtra(double horasExtra)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
                     <mxGeometry y="86" width="350" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="zkfFHV4jXpPFQw0GAbJ--11" value="+double calcularSalario(int numHorasTrabajadas, double tarifa)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+                <mxCell id="zkfFHV4jXpPFQw0GAbJ--10" value="+Jornalero(String nombre, double numHorasTrabajadas)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
                     <mxGeometry y="112" width="350" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="wV_XEhvEnDIZrRfMNP9S-29" value="+String toString()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+                <mxCell id="zkfFHV4jXpPFQw0GAbJ--11" value="+double calcularSalario(int numHorasTrabajadas, double tarifa)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
                     <mxGeometry y="138" width="350" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="wV_XEhvEnDIZrRfMNP9S-29" value="+String toString()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+                    <mxGeometry y="164" width="350" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="zkfFHV4jXpPFQw0GAbJ--12" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
